@@ -1,0 +1,73 @@
+.side-nav {
+    width: 250px;
+}
+
+#navhead {
+    border-bottom-width: 5px;
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+}
+
+#photo {
+    margin-top: 15px;
+}
+
+#name {
+    margin-top: 0px;
+    text-shadow: 2px 2px 2px gray;
+}
+
+#copyright
+{
+    margin-top: 0px;
+}
+
+.socialmedia {
+    margin: 5px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url(media/sunset.jpg);
+    background-attachment: fixed;
+  }
+
+main {
+    margin-left: 250px;
+    flex: 1 0 auto;
+}
+
+.page-footer {
+    margin-left: 250px;
+}
+
+@media only screen and (max-width: 992px){
+    main {
+        margin-left: 0px;
+    }
+    .page-footer {
+        margin-left: 0px;
+    }
+}
+
+.side-nav a:hover {
+    color: white;
+    background-color: #80cbc4;
+    transition: background-color .5s, color .5s;
+}
+
+.side-nav li.active {
+    background-color: #80cbc4;
+}
+
+section {
+    background-color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 6px gray;
+}
