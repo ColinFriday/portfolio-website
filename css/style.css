@@ -14,7 +14,7 @@
 
 #name {
     margin-top: 0px;
-    text-shadow: 2px 2px 2px gray;
+    //text-shadow: 2px 2px 2px gray;
     font-family: 'Lobster', cursive;
 }
 
@@ -79,5 +79,5 @@ section {
     padding-bottom: 30px;
     padding-top: 10px;
     border-radius: 20px;
-    box-shadow: 5px 5px 6px gray;
+    //box-shadow: 5px 5px 6px gray;
 }
