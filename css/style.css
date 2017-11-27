@@ -15,7 +15,7 @@
 #name {
     margin-top: 0px;
     //text-shadow: 2px 2px 2px gray;
-    font-family: 'Lobster', cursive;
+    font-family: 'Bree Serif', serif;
 }
 
 #copyright {
@@ -23,7 +23,9 @@
 }
 
 .context {
-    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .socialmedia {
@@ -31,7 +33,7 @@
 }
 
 h1 {
-    font-family: 'Abhaya Libre', serif;
+    font-family: 'Bree Serif', serif;;
 }
 
 body {
@@ -63,13 +65,17 @@ main {
 }
 
 .side-nav a:hover {
-    color: white;
     background-color: #80cbc4;
     transition: background-color .5s, color .5s;
 }
 
 .side-nav li.active {
     background-color: #80cbc4;
+}
+
+.side-nav li.active a{
+    color: white;
+    font-weight: bold;
 }
 
 section {
@@ -80,4 +86,9 @@ section {
     padding-top: 10px;
     border-radius: 20px;
     //box-shadow: 5px 5px 6px gray;
+    margin-bottom: 30px;
+}
+
+h3, h5, h6 {
+    text-align: center;
 }
