@@ -16,6 +16,7 @@
     margin-top: 0px;
     //text-shadow: 2px 2px 2px gray;
     font-family: 'Bree Serif', serif;
+    font-size: 28pt;
 }
 
 #copyright {
@@ -89,6 +90,21 @@ section {
     margin-bottom: 30px;
 }
 
-h3, h5, h6 {
+h3, h5, h6{
     text-align: center;
+}
+
+.footer-slim {
+    margin-bottom: 0px;
+}
+
+.skill {
+    text-align: center;
+    font-weight: bold;
+}
+
+.skill-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
